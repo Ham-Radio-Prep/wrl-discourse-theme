@@ -1,3 +1,3 @@
-# discourse-mint-theme
+# arc-discourse-theme
 
-An elegant theme for Discourse.
+American Radio Club's customized Discourse theme!
