@@ -1,12 +1,12 @@
 {
-  "name": "Mint",
+  "name": "American Radio Club",
   "about_url": null,
   "license_url": null,
   "color_schemes": {
-    "mint": {
-      "primary": "454545",
-      "secondary": "F6FBFC",
-      "tertiary": "4F8A7C",
+    "ARC": {
+      "primary": "211D51",
+      "secondary": "CF2029",
+      "tertiary": "E8D5B5",
       "header_background": "ffffff",
       "header_primary": "111111"
     }
