@@ -4,8 +4,8 @@
   "license_url": null,
   "color_schemes": {
     "ARC": {
-      "primary": "211D51",
-      "secondary": "CF2029",
+      "primary": "CF2029",
+      "secondary": "211D51",
       "tertiary": "E8D5B5",
       "header_background": "ffffff",
       "header_primary": "111111"
