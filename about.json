@@ -5,8 +5,8 @@
   "color_schemes": {
     "ARC": {
       "primary": "211d51",
-      "secondary": "eda6aa",
-      "tertiary": "a68956",
+      "secondary": "ffffff",
+      "tertiary": "cf2029",
       "header_background": "ffffff",
       "header_primary": "211d51"
     }
