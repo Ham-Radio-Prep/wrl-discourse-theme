@@ -4,8 +4,9 @@
     $(document).ready(function() {
         document.getElementsByClassName("login-button")[0].style.display = "none";
         var loginRedirect = document.createElement('a');
+        loginRedirect.title = "Login | Sign Up";
         loginRedirect.href = "https://americanradioclub.com/login";
-        loginRedirect.className = "login-link";
+        loginRedirect.className = "widget-button btn btn-primary btn-small login-button btn-icon-text";
         document.getElementsByClassName("header-buttons")[0].appendChild(loginRedirect);
     });
 </script>
