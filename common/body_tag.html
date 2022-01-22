@@ -4,7 +4,9 @@
     $(document).ready(function() {
         document.getElementsByClassName("login-button")[0].style.display = "none";
         var loginRedirect = document.createElement('a');
-        loginRedirect.title = "Login | Sign Up";
+        var loginRedirect = document.createTextNode("Login | Sign Up");
+        loginRedirect.appendChild(forgotPasswordMessage);
+        loginRedirect.title = "Login or Sign Up";
         loginRedirect.href = "https://americanradioclub.com/login";
         loginRedirect.className = "widget-button btn btn-primary btn-small login-button btn-icon-text";
         document.getElementsByClassName("header-buttons")[0].appendChild(loginRedirect);
