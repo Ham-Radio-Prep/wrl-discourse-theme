@@ -2,7 +2,10 @@
     alert("JS TEST");
     //document.getElementsByClassName("login-button")[0].visibility = "hidden";
     $(document).ready(function() {
-        document.getElementsByClassName("login-button")[0].onclick = "https://americanradioclub.com/login";
-        alert("READY");
+        document.getElementsByClassName("login-button")[0].style.display = "none";
+        var loginRedirect = document.createElement('a');
+        loginRedirect.href = "https://americanradioclub.com/login";
+        loginRedirect.className = "login-link";
+        document.getElementsByClassName("header-buttons").appendChild(loginRedirect);
     });
 </script>
