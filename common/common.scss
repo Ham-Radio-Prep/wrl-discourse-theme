@@ -43,8 +43,12 @@ input[type="color"]:focus,
 }
 
 .d-header {
-  height: 5em;
+  height: 7em;
   box-shadow: none;
+}
+
+.d-header #site-logo {
+  height: 6em;
 }
 
 .alert.alert-info {
@@ -369,3 +373,4 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     border: 1px dashed var(--tertiary);
   }
 }
+
