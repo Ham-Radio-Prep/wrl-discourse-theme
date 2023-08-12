@@ -1,3 +1,3 @@
-# discourse-theme
+# wrl-discourse-theme
 
-American Radio Club's customized Discourse theme!
+World Radio League's custom Discourse community theme!
