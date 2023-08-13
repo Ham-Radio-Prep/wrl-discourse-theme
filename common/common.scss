@@ -385,3 +385,16 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   }
 }
 
+/* All New Custom CSS */
+
+.extra-info-wrapper .topic-link {
+  color: $color-white;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.extra-info-wrapper .badge-wrapper.bullet span.badge-category, .extra-info-wrapper .badge-wrapper.bar span.badge-category, .extra-info-wrapper .badge-wrapper.none span.badge-category {
+  color: $wrl-secondary;
+}
