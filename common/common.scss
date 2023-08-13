@@ -139,7 +139,7 @@ input[type="color"]:focus,
 }
 
 a {
-  color: var(--tertiary-hover);
+  color: $wrl-accent;
 }
 
 .category-boxes {
@@ -280,19 +280,19 @@ a {
   }
   &:hover {
     color: var(--secondary);
-    background: var(--tertiary-hover);
-    border: 1px solid var(--tertiary-hover);
+    background: $wrl-accent;
+    border: 1px solid $wrl-accent;
     border-radius: 5px;
   }
 }
 
 .discourse-no-touch .btn:hover .d-icon, .discourse-no-touch .btn.btn-hover .d-icon {
-  color: var(--tertiary-hover);
+  color: $wrl-accent;
 }
 
 .discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
   color: var(--secondary);
-  background: var(--tertiary-hover);
+  background: $wrl-accent;
   border-radius: 5px;
   .fa {
     color: var(--secondary);
@@ -343,7 +343,7 @@ a {
 }
 
 a:hover {
-  color: var(--tertiary-hover);
+  color: $wrl-accent;
 }
 
 .image-upload-controls .btn-default {
