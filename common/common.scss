@@ -81,13 +81,13 @@ input[type="color"]:focus,
     }
     .btn-more {
       color: var(--secondary);
-      background: var(--tertiary);
+      background: $wrl-dark-blue;
       transition: all 0.3s linear;
       @include border-radius;
       text-transform: uppercase;
-      border: 1px solid var(--tertiary);
+      border: 1px solid $wrl-dark-blue;
       &:hover {
-        background: var(--tertiary);
+        background: $wrl-dark-blue;
         color: var(--secondary);
         box-shadow: 4px 4px $color-box-shadow;
         transition: 0.3s;
@@ -186,16 +186,16 @@ a {
 
 #create-topic {
   color: var(--secondary);
-  background: var(--tertiary);
+  background: $wrl-dark-blue;
   transition: all 0.3s linear;
   @include border-radius;
   text-transform: uppercase;
-  border: 2px solid var(--tertiary);
+  border: 2px solid $wrl-dark-blue;
   .fa {
     color: var(--secondary);
   }
   &:hover {
-    background: var(--tertiary);
+    background: $wrl-dark-blue;
     color: var(--secondary);
     box-shadow: 4px 4px $color-box-shadow;
     transition: all 0.3s linear;
@@ -207,7 +207,7 @@ a {
 }
 
 .open .grippie {
-  background: var(--tertiary);
+  background: $wrl-dark-blue;
 }
 
 .options.toolbar-popup-menu-options {
@@ -216,7 +216,7 @@ a {
     border-radius: none;
     border: none;
     &:hover {
-      background: var(--tertiary);
+      background: $wrl-dark-blue;
       border-radius: 0;
     }
   }
@@ -230,10 +230,10 @@ a {
 
 .menu-panel .panel-body-bottom .btn {
   svg {
-    color: var(--tertiary);
+    color: $wrl-dark-blue;
   }
   &:hover {
-    background: var(--tertiary);
+    background: $wrl-dark-blue;
     color: var(--secondary);
   }
 }
@@ -258,9 +258,9 @@ a {
 }
 
 .select-kit.dropdown-select-box .dropdown-select-box-header {
-  background: var(--tertiary);
+  background: $wrl-dark-blue;
   @include border-radius;
-  border: 1px solid var(--tertiary);
+  border: 1px solid $wrl-dark-blue;
   color: var(--secondary);
   svg {
     color: var(--secondary);
@@ -306,11 +306,11 @@ a {
 
 .btn-default {
   color: var(--secondary);
-  background: var(--tertiary);
+  background: $wrl-dark-blue;
   transition: all 0.3s linear;
   @include border-radius;
   text-transform: uppercase;
-  border: 1px solid var(--tertiary);
+  border: 1px solid $wrl-dark-blue;
   .fa {
     color: var(--secondary);
   }
@@ -355,7 +355,7 @@ a:hover {
 
 .admin-controls, .email-template, .admin-container {
   .nav-pills>li a.active {
-    background: var(--tertiary);
+    background: $wrl-dark-blue;
     color: var(--secondary);
   }
   .btn-primary {
@@ -377,11 +377,11 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
-    background: var(--tertiary);
+    background: $wrl-dark-blue;
     color: var(--secondary);
   }
   .search-advanced-filters {
-    border: 1px dashed var(--tertiary);
+    border: 1px dashed $wrl-dark-blue;
   }
 }
 
