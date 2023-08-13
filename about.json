@@ -1,10 +1,10 @@
 {
-  "name": "WRL Theme",
+  "name": "American Radio Club",
   "about_url": null,
   "license_url": null,
   "color_schemes": {
     "ARC": {
-      "primary": "000030",
+      "primary": "211d51",
       "secondary": "ffffff",
       "tertiary": "cf2029",
       "header_background": "ffffff",

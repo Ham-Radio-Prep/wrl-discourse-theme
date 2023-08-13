@@ -43,14 +43,12 @@ input[type="color"]:focus,
 }
 
 .d-header {
+  height: 9em;
   box-shadow: none;
-  padding: 1.25rem 0px;
-  background-color: $wrl-primary;
 }
 
-
 .d-header #site-logo {
-  height: 4rem;
+  height: 7em;
 }
 
 .alert.alert-info {
