@@ -4,12 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Inter:wght@400;600;700&family=Play:wght@400;700&display=swap');
 
 /* Brand Colors */
---primary: #000030;
---secondary: #BEE3F2;
---accent: #00D395;
---light-blue: #3EB7D4;
---light-purple: #597BF5;
---dark-blue: #0C2BD7;
+$primary: #000030;
+$secondary: #BEE3F2;
+$accent: #00D395;
+$light-blue: #3EB7D4;
+$light-purple: #597BF5;
+$dark-blue: #0C2BD7;
 
 /* Default Fonts */
 body {
@@ -397,58 +397,81 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 
-
-/* Button Styles */
-button, .btn, .button, input[type="submit"] {
-    background-color: var(--primary);
-    color: var(--secondary);
+/* Buttons and Links Styling */
+a, .btn, .button, button {
+    background-color: $accent;
+    color: $primary;
     border: none;
-    border-radius: 8px;
-    font-family: 'Barlow', sans-serif;
-    padding: 10px 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
     transition: background-color 0.3s ease;
-
-    &:hover {
-        background-color: var(--dark-blue);
-    }
-
-    &:active {
-        background-color: var(--light-blue);
-    }
-
-    &:disabled {
-        background-color: var(--light-purple);
-        cursor: not-allowed;
-    }
 }
 
-a {
-    color: var(--accent);
-    transition: color 0.3s ease;
-
-    &:hover {
-        color: var(--dark-blue);
-    }
+a:hover, .btn:hover, .button:hover, button:hover {
+    background-color: $light-blue;
 }
 
+.d-button {
+    background-color: $accent;
+    color: $primary;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
 
-/* Background Styles */
+.d-button:hover {
+    background-color: $light-blue;
+}
+
+/* Spacings, Margins, and Paddings */
 body {
-    background-color: var(--secondary);
+    margin: 0;
+    padding: 0;
 }
 
-header, .header, footer, .footer {
-    background-color: var(--primary);
-    color: var(--secondary);
-}
-
-/* Interactive Elements */
-input:focus, textarea:focus, select:focus {
-    border-color: var(--accent);
-    box-shadow: 0 0 5px rgba(0, 211, 149, 0.5);  /* --accent with 50% opacity */
-}
-
-/* Spacing & Layout */
-.container, .content, .wrapper {
+.container, .wrapper {
     padding: 20px;
+}
+
+header, footer {
+    padding: 15px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p, li {
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+/* General Modifications */
+
+/* Header and Footer */
+header, footer {
+    background-color: $primary;
+    color: $secondary;
+}
+
+/* Backgrounds and Text Colors */
+body {
+    background-color: $secondary;
+    color: $primary;
+}
+
+.topic-body {
+    background-color: $light-purple;
+}
+
+.topic-title {
+    color: $dark-blue;
 }
