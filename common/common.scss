@@ -42,6 +42,13 @@ input[type="color"]:focus,
   outline: none;
 }
 
+.custom-search-banner-wrap .search-input {
+  // flex: 1 1 auto;
+  // margin: 0;
+  // padding: 0;
+  border-radius: 10px;
+}
+
 .d-header {
   background-color: $wrl-primary;
   box-shadow: none;
@@ -90,14 +97,17 @@ input[type="color"]:focus,
   }
 }
 
+
 .navigation-categories .search-banner {
   @include border-radius;
   height: 350px;
   box-sizing: border-box;
   padding: 2.5em 0 3em;
-  margin: 1em auto;
+  margin: 2em auto;
   max-width: 1110px;
+  background: #0C2BD7;
 }
+
 
 .category-box-inner {
   background: $color-white;
@@ -235,15 +245,15 @@ a {
     @include border-radius;
     transition: all 0.3s linear;
     background-color: transparent;
-    color: var(--tertiary);
-    border: 1px dashed var(--tertiary);
+    color: $wrl-dark-blue;
+    border: 1px dashed $wrl-dark-blue;
   }
   &.active {
     @include border-radius;
     transition: all 0.3s linear;
-    background: $color-red;
+    background: $wrl-dark-blue;
     color: var(--secondary);
-    border: 1px solid $color-red;
+    border: 1px solid $wrl-dark-blue;
   }
 }
 
