@@ -1,3 +1,15 @@
+
+/* Google Fonts Integration */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Inter:wght@400;600;700&family=Play:wght@400;700&display=swap');
+
+/* Unique Brand Colors */
+$wrl-primary: #000030;
+$wrl-secondary: #BEE3F2;
+$wrl-accent: #00D395;
+$wrl-light-blue: #3EB7D4;
+$wrl-light-purple: #597BF5;
+$wrl-dark-blue: #0C2BD7;
 @import 'variables';
 
 input[type="text"],
@@ -375,3 +387,44 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   }
 }
 
+
+/* Dark Theme Styling */
+
+body {
+    background-color: $wrl-primary;
+    color: $wrl-secondary;
+    font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Play', sans-serif;
+    color: $wrl-light-purple;
+}
+
+a, .btn, .button, button {
+    background-color: $wrl-accent;
+    color: $wrl-primary;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+a:hover, .btn:hover, .button:hover, button:hover {
+    background-color: $wrl-light-blue;
+}
+
+.container, .wrapper {
+    padding: 20px;
+    background-color: $wrl-dark-blue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header, footer {
+    background-color: $wrl-dark-blue;
+    color: $wrl-secondary;
+    padding: 15px 0;
+}
