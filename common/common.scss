@@ -42,21 +42,14 @@ input[type="color"]:focus,
   outline: none;
 }
 
-.custom-search-banner-wrap .search-input {
-  // flex: 1 1 auto;
-  // margin: 0;
-  // padding: 0;
-  border-radius: 10px;
+.d-header {
+  box-shadow: none;
+  padding: 1.5rem 0px;
 }
 
-.d-header {
-  background-color: $wrl-primary;
-  box-shadow: none;
-  padding: 1.25rem 0;
-}
 
 .d-header #site-logo {
-  height: 4rem;
+  height: 4.2rem;
 }
 
 .alert.alert-info {
@@ -81,13 +74,13 @@ input[type="color"]:focus,
     }
     .btn-more {
       color: var(--secondary);
-      background: $wrl-dark-blue;
+      background: var(--tertiary);
       transition: all 0.3s linear;
       @include border-radius;
       text-transform: uppercase;
-      border: 1px solid $wrl-dark-blue;
+      border: 1px solid var(--tertiary);
       &:hover {
-        background: $wrl-dark-blue;
+        background: var(--tertiary);
         color: var(--secondary);
         box-shadow: 4px 4px $color-box-shadow;
         transition: 0.3s;
@@ -97,17 +90,14 @@ input[type="color"]:focus,
   }
 }
 
-
 .navigation-categories .search-banner {
   @include border-radius;
   height: 350px;
   box-sizing: border-box;
   padding: 2.5em 0 3em;
-  margin: 2em auto;
+  margin: 1em auto;
   max-width: 1110px;
-  background: #0C2BD7;
 }
-
 
 .category-box-inner {
   background: $color-white;
@@ -139,7 +129,7 @@ input[type="color"]:focus,
 }
 
 a {
-  color: $wrl-accent;
+  color: var(--tertiary-hover);
 }
 
 .category-boxes {
@@ -186,16 +176,16 @@ a {
 
 #create-topic {
   color: var(--secondary);
-  background: $wrl-dark-blue;
+  background: var(--tertiary);
   transition: all 0.3s linear;
   @include border-radius;
   text-transform: uppercase;
-  border: 2px solid $wrl-dark-blue;
+  border: 2px solid var(--tertiary);
   .fa {
     color: var(--secondary);
   }
   &:hover {
-    background: $wrl-dark-blue;
+    background: var(--tertiary);
     color: var(--secondary);
     box-shadow: 4px 4px $color-box-shadow;
     transition: all 0.3s linear;
@@ -207,7 +197,7 @@ a {
 }
 
 .open .grippie {
-  background: $wrl-dark-blue;
+  background: var(--tertiary);
 }
 
 .options.toolbar-popup-menu-options {
@@ -216,7 +206,7 @@ a {
     border-radius: none;
     border: none;
     &:hover {
-      background: $wrl-dark-blue;
+      background: var(--tertiary);
       border-radius: 0;
     }
   }
@@ -230,10 +220,10 @@ a {
 
 .menu-panel .panel-body-bottom .btn {
   svg {
-    color: $wrl-dark-blue;
+    color: var(--tertiary);
   }
   &:hover {
-    background: $wrl-dark-blue;
+    background: var(--tertiary);
     color: var(--secondary);
   }
 }
@@ -245,22 +235,22 @@ a {
     @include border-radius;
     transition: all 0.3s linear;
     background-color: transparent;
-    color: $wrl-dark-blue;
-    border: 1px dashed $wrl-dark-blue;
+    color: var(--tertiary);
+    border: 1px dashed var(--tertiary);
   }
   &.active {
     @include border-radius;
     transition: all 0.3s linear;
-    background: $wrl-dark-blue;
+    background: $color-red;
     color: var(--secondary);
-    border: 1px solid $wrl-dark-blue;
+    border: 1px solid $color-red;
   }
 }
 
 .select-kit.dropdown-select-box .dropdown-select-box-header {
-  background: $wrl-dark-blue;
+  background: var(--tertiary);
   @include border-radius;
-  border: 1px solid $wrl-dark-blue;
+  border: 1px solid var(--tertiary);
   color: var(--secondary);
   svg {
     color: var(--secondary);
@@ -280,19 +270,19 @@ a {
   }
   &:hover {
     color: var(--secondary);
-    background: $wrl-accent;
-    border: 1px solid $wrl-accent;
+    background: var(--tertiary-hover);
+    border: 1px solid var(--tertiary-hover);
     border-radius: 5px;
   }
 }
 
 .discourse-no-touch .btn:hover .d-icon, .discourse-no-touch .btn.btn-hover .d-icon {
-  color: $wrl-accent;
+  color: var(--tertiary-hover);
 }
 
 .discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
   color: var(--secondary);
-  background: $wrl-accent;
+  background: var(--tertiary-hover);
   border-radius: 5px;
   .fa {
     color: var(--secondary);
@@ -306,11 +296,11 @@ a {
 
 .btn-default {
   color: var(--secondary);
-  background: $wrl-dark-blue;
+  background: var(--tertiary);
   transition: all 0.3s linear;
   @include border-radius;
   text-transform: uppercase;
-  border: 1px solid $wrl-dark-blue;
+  border: 1px solid var(--tertiary);
   .fa {
     color: var(--secondary);
   }
@@ -343,7 +333,7 @@ a {
 }
 
 a:hover {
-  color: $wrl-accent;
+  color: var(--tertiary-hover);
 }
 
 .image-upload-controls .btn-default {
@@ -355,7 +345,7 @@ a:hover {
 
 .admin-controls, .email-template, .admin-container {
   .nav-pills>li a.active {
-    background: $wrl-dark-blue;
+    background: var(--tertiary);
     color: var(--secondary);
   }
   .btn-primary {
@@ -377,24 +367,11 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
-    background: $wrl-dark-blue;
+    background: var(--tertiary);
     color: var(--secondary);
   }
   .search-advanced-filters {
-    border: 1px dashed $wrl-dark-blue;
+    border: 1px dashed var(--tertiary);
   }
 }
 
-/* All New Custom CSS */
-
-.extra-info-wrapper .topic-link {
-  color: $color-white;
-  display: block;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.extra-info-wrapper .badge-wrapper.bullet span.badge-category, .extra-info-wrapper .badge-wrapper.bar span.badge-category, .extra-info-wrapper .badge-wrapper.none span.badge-category {
-  color: $wrl-secondary;
-}

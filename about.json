@@ -9,6 +9,13 @@
       "tertiary": "cf2029",
       "header_background": "ffffff",
       "header_primary": "211d51"
+    },
+    "WRL": {
+      "primary": "000030",
+      "secondary": "ffffff",
+      "tertiary": "0C2BD7",
+      "header_background": "000030",
+      "header_primary": "211d51"
     }
   },
   "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git"]
