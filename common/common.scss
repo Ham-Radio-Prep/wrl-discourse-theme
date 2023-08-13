@@ -237,14 +237,16 @@ a {
     transition: all 0.3s linear;
     background-color: transparent;
     color: var(--tertiary);
-    border: 1px dashed var(--tertiary);
+    // border: 1px dashed var(--tertiary);
+    border: none;
   }
   &.active {
     @include border-radius;
     transition: all 0.3s linear;
-    background: $color-red;
+    background: $wrl-accent;
     color: var(--secondary);
-    border: 1px solid $color-red;
+    // border: 1px solid $color-red;
+    border: none;
   }
 }
 
