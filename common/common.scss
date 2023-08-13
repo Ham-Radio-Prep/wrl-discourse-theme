@@ -1,5 +1,14 @@
 @import 'variables';
 
+:root {
+--wrl-primary: #000030
+--wrl-secondary: #BEE3F2
+--wrl-accent : #00D395
+--wrl-light-blue: #3EB7D4
+--wrl-light-purple: #597BF5
+--wrl-dark-blue: #0C2BD7
+}
+
 input[type="text"],
 input[type="password"],
 input[type="datetime"],
@@ -43,12 +52,12 @@ input[type="color"]:focus,
 }
 
 .d-header {
-  height: 9em;
+  background-color: var(--wrl-primary);
   box-shadow: none;
 }
 
 .d-header #site-logo {
-  height: 7em;
+  height: 4rem;
 }
 
 .alert.alert-info {
