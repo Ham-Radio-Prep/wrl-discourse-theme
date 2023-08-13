@@ -378,3 +378,14 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   }
 }
 
+
+
+// Additional Custom CSS //
+
+.nav-stacked a.active {
+  color: var(--secondary);
+  background-color: $wrl-light-purple;
+  // position: relative;
+  // --arrow-thickness: 8px;
+}
+
