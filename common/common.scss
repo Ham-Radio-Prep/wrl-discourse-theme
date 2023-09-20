@@ -14,7 +14,8 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"],
-.d-editor-textarea-wrapper, .select-kit-header {
+.d-editor-textarea-wrapper,
+.select-kit-header {
   @include border-radius;
 }
 
@@ -58,20 +59,24 @@ input[type="color"]:focus,
 
 .custom-homepage-columns {
   margin: 2em 0 2em 0;
+
   .col {
     position: relative;
     @include border-radius;
     background: $color-white;
     padding: 2em 2em 1em;
     border-top: 8px solid $tertiary;
-    box-shadow: 0 8px 60px 0 rgba(103,151,255,.10), 0 12px 90px 0 rgba(133,255,103,.10);
+    box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .10), 0 12px 90px 0 rgba(133, 255, 103, .10);
+
     .header-wrapper {
       color: var(--primary);
       background-color: transparent;
+
       .btn-primary {
         display: none;
       }
     }
+
     .btn-more {
       color: var(--secondary);
       background: var(--tertiary);
@@ -79,6 +84,7 @@ input[type="color"]:focus,
       @include border-radius;
       text-transform: uppercase;
       border: 1px solid var(--tertiary);
+
       &:hover {
         background: var(--tertiary);
         color: var(--secondary);
@@ -107,7 +113,7 @@ input[type="color"]:focus,
 .navigation-topics {
   .container.list-container {
     @include border-radius;
-    box-shadow: 0 8px 60px 0 rgba(103,151,255,.10), 0 12px 90px 0 rgba(133,255,103,.10);
+    box-shadow: 0 8px 60px 0 rgba(103, 151, 255, .10), 0 12px 90px 0 rgba(133, 255, 103, .10);
     padding: 2em;
     background-color: $color-white;
     border-top: 8px solid $tertiary;
@@ -138,6 +144,7 @@ a {
   grid-gap: 2em;
   grid-template-columns: 32% 32% 32%;
   @include border-radius;
+
   .category-box {
     width: 100%;
     margin: 0;
@@ -146,16 +153,19 @@ a {
     border-top: 8px solid;
     background: var(--secondary);
     @include border-radius;
-    box-shadow: 0px 2px 3px 0px rgba(2,47,57,.14);
+    box-shadow: 0px 2px 3px 0px rgba(2, 47, 57, .14);
+
     .category-box-inner {
       border: none;
       padding: 0;
+
       .category-details {
         padding: 2em;
       }
     }
+
     &:hover {
-      box-shadow: 0px 40px 30px 0px rgba(2,47,57,.10);
+      box-shadow: 0px 40px 30px 0px rgba(2, 47, 57, .10);
       transform: translateY(-2px);
     }
   }
@@ -170,7 +180,7 @@ a {
 .category-list-item.category {
   @include border-radius;
   border-right: 1px solid var(--primary-low) !important;
-  box-shadow: 0 0 4px 0 rgba(0,0,0,.10);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .10);
   margin: 0 0.59em 2em .59em;
   background: white;
 }
@@ -182,15 +192,18 @@ a {
   @include border-radius;
   text-transform: uppercase;
   border: 2px solid var(--tertiary);
+
   .fa {
     color: var(--secondary);
   }
+
   &:hover {
     background: var(--tertiary);
     color: var(--secondary);
     box-shadow: 4px 4px $color-box-shadow;
     transition: all 0.3s linear;
     @include border-radius;
+
     .fa {
       color: var(--secondary);
     }
@@ -206,6 +219,7 @@ a {
     background: transparent;
     border-radius: none;
     border: none;
+
     &:hover {
       background: var(--tertiary);
       border-radius: 0;
@@ -223,6 +237,7 @@ a {
   svg {
     color: var(--tertiary);
   }
+
   &:hover {
     background: var(--tertiary);
     color: var(--secondary);
@@ -232,6 +247,7 @@ a {
 .nav-pills li a {
   border: 1px solid transparent;
   @include border-radius;
+
   &:hover {
     @include border-radius;
     transition: all 0.3s linear;
@@ -240,6 +256,7 @@ a {
     // border: 1px dashed var(--tertiary);
     border: none;
   }
+
   &.active {
     @include border-radius;
     transition: all 0.3s linear;
@@ -255,8 +272,10 @@ a {
   @include border-radius;
   border: 1px solid var(--tertiary);
   color: var(--secondary);
+
   svg {
     color: var(--secondary);
+
     &:hover {
       color: var(--secondary);
     }
@@ -268,9 +287,11 @@ a {
   color: var(--primary-medium);
   border: 1px solid transparent;
   border-radius: 0;
+
   svg {
     color: currentColor;
   }
+
   &:hover {
     color: var(--secondary);
     background: var(--tertiary-hover);
@@ -279,21 +300,26 @@ a {
   }
 }
 
-.discourse-no-touch .btn:hover .d-icon, .discourse-no-touch .btn.btn-hover .d-icon {
+.discourse-no-touch .btn:hover .d-icon,
+.discourse-no-touch .btn.btn-hover .d-icon {
   color: var(--tertiary-hover);
 }
 
-.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
+.discourse-no-touch .btn:hover,
+.discourse-no-touch .btn.btn-hover {
   color: var(--secondary);
   background: var(--tertiary-hover);
+
   // border-radius: 5px;
   .fa {
     color: var(--secondary);
   }
 }
 
-.menu-panel .widget-link:hover, .menu-panel .widget-link:focus,
-.menu-panel .categories-link:hover, .menu-panel .categories-link:focus {
+.menu-panel .widget-link:hover,
+.menu-panel .widget-link:focus,
+.menu-panel .categories-link:hover,
+.menu-panel .categories-link:focus {
   background-color: var(--tertiary-low);
 }
 
@@ -304,6 +330,7 @@ a {
   @include border-radius;
   text-transform: uppercase;
   border: 1px solid var(--tertiary);
+
   .fa {
     color: var(--secondary);
   }
@@ -325,7 +352,8 @@ a {
   background-color: var(--secondary-very-high);
 }
 
-.modal-inner-container, .edit-category-footer {
+.modal-inner-container,
+.edit-category-footer {
   .btn-primary {
     @include border-radius;
   }
@@ -341,22 +369,27 @@ a:hover {
 
 .image-upload-controls .btn-default {
   border: 1px solid var(--secondary);
+
   .fa {
     color: var(--secondary);
   }
 }
 
-.admin-controls, .email-template, .admin-container {
+.admin-controls,
+.email-template,
+.admin-container {
   .nav-pills>li a.active {
     background: var(--tertiary);
     color: var(--secondary);
   }
+
   .btn-primary {
     @include border-radius;
   }
 }
 
-.custom-search-banner-wrap h1, .custom-search-banner-wrap p {
+.custom-search-banner-wrap h1,
+.custom-search-banner-wrap p {
   color: $color-white;
 }
 
@@ -373,6 +406,7 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     background: var(--tertiary);
     color: var(--secondary);
   }
+
   .search-advanced-filters {
     border: 1px dashed var(--tertiary);
   }
@@ -389,3 +423,8 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   // --arrow-thickness: 8px;
 }
 
+
+.custom-header-links .headerLink {
+  list-style: none;
+  padding-left: 20px;
+}
