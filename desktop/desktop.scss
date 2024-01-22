@@ -15,6 +15,11 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   grid-template-columns: 1fr 0.7fr 1fr;
 }
 
+#main-outlet-wrapper #main-outlet {
+  grid-area: content;
+  height: calc(100vh - 200px);
+}
+
 // #main-outlet:after  {
 //   content: "";
 //   display: block;
