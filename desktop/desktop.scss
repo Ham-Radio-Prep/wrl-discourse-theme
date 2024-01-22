@@ -20,6 +20,12 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   height: calc(100vh - 200px);
 }
 
+span.chat-channel-title {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
 // #main-outlet:after  {
 //   content: "";
 //   display: block;
