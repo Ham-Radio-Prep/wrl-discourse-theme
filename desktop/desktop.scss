@@ -19,7 +19,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
 .channels-list {
   grid-column: 1 / 2;
   height: auto !important;
-
+  padding-top: 0.5rem;
 }
 
 .chat-view {
